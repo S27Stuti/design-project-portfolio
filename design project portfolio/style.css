@@ -1,0 +1,58 @@
+#header{
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    align-items: center;   /* vertically center */
+    justify-content: center;
+    background: linear-gradient(to left, rgb(191, 0, 0), rgb(0, 0, 255));
+  
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 200%;
+    margin-right: 800px;   /* % hata diya */
+    text-shadow: 2px 2px 5px black;
+    white-space: nowrap;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 50px;   /* % hata diya */
+    font-size: 120%;
+    text-shadow: 2px 2px 5px black;
+    white-space: nowrap;
+}
+.class{
+        color: black;
+       text-shadow: 2px 2px 500px black;
+        align-content: center;
+      justify-content: center;
+      gap: 1%;
+      margin-left: 20%;
+      font-size: 120%;
+      font-weight: bolder;
+    }
+    button{
+        color: rgb(255, 255, 255);
+        background-color: brown;
+        
+      
+    }
+    img{
+        border-radius: 5%;
+    }
+    footer{
+        height: 150px;
+        width: 1500px;
+        background: linear-gradient(to left, rgb(191, 0, 0), rgb(0, 0, 255));
+  
+    }
+    .btn-group{
+  display: flex;
+  justify-content: center; /* center me lane ke liye */
+  gap: 20px;              /* buttons ke beech space */
+  margin-top: 20px;
+}
